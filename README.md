@@ -60,7 +60,25 @@ The model is evaluated using standard classification metrics such as:
 
 The results show that **combining spatial and temporal representations** significantly improves the recognition of subtle facial movements.
 
-*(See the notebook for full experiments, visualizations, and outputs.)*
+_(See the notebook for full experiments, visualizations, and outputs.)_
+
+---
+
+## Test Results (from Notebook)
+
+Training (run shown in `SAMM_Micro_Expressions.ipynb`):
+
+- Final epoch (42): train accuracy `94.85%`, train loss `0.1150`, val accuracy `84.93%`, val loss `0.6941`
+- Best validation accuracy: `86.30%` (epoch 32)
+
+Automatic test (model evaluation on test split):
+
+- Test accuracy: `11.96%`
+- Test loss: `3.2762`
+
+Manual test (visual inspection from confusion matrix / manual prediction loop):
+
+- Manual accuracy: `65.22%`
 
 ---
 
@@ -68,7 +86,7 @@ The results show that **combining spatial and temporal representations** signifi
 
 - **Python**
 - **Deep Learning:** CNNs, BiLSTM
-- **Libraries:** NumPy, OpenCV, PyTorch / TensorFlow *(depending on implementation)*
+- **Libraries:** NumPy, OpenCV, PyTorch / TensorFlow _(depending on implementation)_
 - **Visualization:** Matplotlib
 - **Environment:** Jupyter Notebook
 
@@ -88,8 +106,8 @@ All outputs are preserved to ensure full transparency and reproducibility.
 
 This project was developed as part of my **Bachelor Project** in Computer Engineering , focusing on:
 
-- Computer Vision  
-- Deep Learning  
+- Computer Vision
+- Deep Learning
 
 ---
 
